@@ -1,0 +1,49 @@
+body{
+    background-image: url(adback.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.addform p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+.addform{
+    width: 320px;
+    height: 420px;
+    background-color: rgb(89, 158, 219);
+    color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    opacity: 0.6;
+    border-radius: 25px;
+}
+.addform input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.addform input[type="street"]
+{
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 25px
+}
+.addform input[type="submit"]
+{
+    color: rgb(30, 41, 0);
+    background-color: aqua;
+    padding: 5%;
+    border-radius: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}

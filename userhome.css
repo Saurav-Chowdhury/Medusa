@@ -1,0 +1,131 @@
+body{
+    background: url("landback.jpg");
+    position: relative;
+    background-position: center;
+}
+.logout{
+    margin-left: 1700px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    margin-left: 1680px;
+}
+.logout a{
+    text-decoration: none;
+    color: #000;
+}
+form input[type="search"]{
+    border-radius: 10px;
+    margin-left: 800px;
+    height: 30px;
+    padding-left: 71px;
+    padding-right: 71px;
+    background-color: rgb(4, 51, 53);
+    color: rgb(255, 158, 11);
+}
+
+.browse h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.browse a:link,a:after,a:visited{
+    text-decoration: none;
+    color: #000;
+}
+.browse ul{
+    list-style-type: none;
+}
+.dropbtn {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 39px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #6acedb;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(95, 140, 177);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #005eb6;}
+
+  .list h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 73, 70);
+}
+.tab p{
+    color: red;
+}
+.add a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(206, 11, 11);
+}
+.add p{
+    text-align: center;
+}
+.tab{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tab td, th{
+    border: 1px solid rgb(221, 221, 221);
+    padding: 8px;
+  }
+  
+  .tab tr:nth-child(even){background-color: #f2f2f2;}
+  
+ .tab tr:hover {background-color: #ddd;}
+  
+  .tab th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  .tab a{
+      text-decoration: none;
+  }
+button{
+    background-color: rgb(80, 214, 47);
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 9ch;
+
+}
+
+.cart{
+    margin-left: 1700px;
+}
+.cart p,a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    text-decoration: none;
+}

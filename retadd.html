@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            Add products
+        </title>
+    </head>
+    <body>
+        <div class="det">
+            <form action="proadd.php" method="POST" enctype="multipart/form-data">
+                Choose Category
+                <select name="Category">
+                    <option value="Analgesics">Analgesics</option>
+                    <option value="Antibody">Antibody</option>
+                    <option value="Antacids">Antacids</option>
+                </select><br><br>
+                Name
+                <input type="text" name="Name">
+                <br><br>
+                Description
+                <input type="text" name="Des">
+                <br><br>
+                Price
+                <input type="number" step="0.01" name="price">
+                <br><br>
+                Date
+                <input type="date" name="createdate">
+                <br><br>
+                Status
+                <select name="status">
+                    <option value="Available">Available</option>
+                    <option value="Unavailable">Unavailable</option>
+                </select><br><br>
+                <input type="file" name="pic"><br>
+                
+                <input type="submit" value="Add">
+            </form>
+
+            <a href="rethome.php">Products</a>
+        </div>
+    </body>
+</html>

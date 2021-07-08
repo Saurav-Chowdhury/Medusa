@@ -1,0 +1,24 @@
+body{
+    background-image: url('checkout.jpg');
+}
+.main h1,h3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 24, 37);
+}
+.main{
+    width: 320px;
+    height: 420px;
+    color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    opacity: 0.8;
+}
+
+.main p{
+    color: red;
+}

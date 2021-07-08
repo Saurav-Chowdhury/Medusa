@@ -1,0 +1,36 @@
+<html>
+<head>
+    <style>
+        h1 {text-align: center;}
+        a:link {
+            color: rgb(8, 197, 8);
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:visited {
+            color: rgb(238, 255, 0);
+            background-color: transparent;
+            text-decoration: none;
+        }
+    </style>
+<title>
+    Login
+</title>
+</head>
+<link rel="stylesheet" type="text/css" href="userstyle.css">
+<body>
+    <div class="loginbox">
+        <h1>Login With Us</h1>
+        <form action="retlog.php" method="POST">
+            <p>Name</p>
+            <input type="text" name="name" placeholder="Enter your Name">
+            <p>Email</p>
+            <input type="email" name="email" placeholder="Email">
+            <p>Password</p>
+            <input type="Password" name="password" placeholder="Password">
+            <input type="submit" value="Login"><br>
+            <a href="retreg.html">Create account</a>
+        </form>
+    </div>
+</body>
+</html>
